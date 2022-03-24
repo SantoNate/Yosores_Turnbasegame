@@ -107,24 +107,42 @@
 
     <ImageView
         android:id="@+id/invovo"
-        android:layout_width="195dp"
-        android:layout_height="286dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="152dp"
+        android:layout_height="196dp"
+        android:layout_marginBottom="16dp"
+        android:background="#0000"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toTopOf="@+id/heroTxt"
         app:layout_constraintEnd_toEndOf="@+id/monsterTxt"
-        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintHorizontal_bias="0.129"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/invoker" />
 
     <ImageView
         android:id="@+id/cancerhero"
-        android:layout_width="194dp"
-        android:layout_height="281dp"
-        android:layout_marginBottom="43dp"
+        android:layout_width="170dp"
+        android:layout_height="206dp"
+        android:layout_marginBottom="84dp"
+        android:background="#0000"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toTopOf="@+id/txtMonstrDmg"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintHorizontal_bias="0.933"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/variant" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="55dp"
+        android:layout_height="51dp"
+        android:background="#0000"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.972"
+        app:srcCompat="@drawable/Alacrity_icon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         turn = 1;
                         heroHP = 1000;
                         monsterHP = 950;
-                        txtCombatLog.setText("Player dealt "+ heroDPT+ " dmg to "+ monsterName+ ". Get rekt looser lol.");
+                        txtCombatLog.setText("Invoker dealt "+ heroDPT+ " dmg to "+ monsterName+ ". Winner, winner, chicken dinner.");
                         nextTurn.setText("Reset");
                     }
                 }
@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         turn = 1;
                         heroHP = 1000;
                         monsterHP = 950;
-                        txtCombatLog.setText(monsterName+ " dealt "+ monsterDPT+ " dmg to "+ heroName+ ". Winner, winner, chicken dinner.");
+                        txtCombatLog.setText(monsterName+ " dealt "+ monsterDPT+ " dmg to "+ heroName+ ". Get rekt looser lol.");
                         nextTurn.setText("Reset");
                     }
                 }
